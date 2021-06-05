@@ -1,0 +1,281 @@
+body {
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(https://64.media.tumblr.com/291b691b263c1d241d11e55bd9aab121/7e9bd1a3ffaadadd-06/s2048x3072/e1b25488bb414ce222583d95b431cc65ff4d168b.jpg);
+    background-size: contain;
+}
+
+p {
+    margin: 0;
+    background-image: url(https://pa1.narvii.com/7571/7765acafa41851d46dfa28534c8e3036313c670cr1-493-647_hq.gif);
+    padding-block: 20px;
+    color: white;
+    padding-inline: 15px;
+}
+
+.rightHead {
+    background: #fc90;
+    color: #cc6633;
+    padding-left: 4px;
+    font-size: 0px;
+}
+
+.blurbs {
+    margin-bottom: 20px;
+    background-color: #00000099;
+    padding-inline: 30px;
+    padding-block: 20px;
+}
+
+.tableRight {
+    width: 75%;
+    background: #00000099;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    border: solid #8efa00;
+}
+
+h4 {
+    color: #8EFA00;
+    margin-bottom: 0px;
+    font-family: auto;
+    font-size: 20px;
+    text-shadow: 2px 1px black;
+}
+
+.blogs, .blog {
+    margin-bottom: 20px;
+    color: #8efa00;
+    border: solid black;
+    background-image: url(https://i.pinimg.com/564x/31/21/e6/3121e6d6d6a265b3417149d9c5018151.jpg);
+    background-size: cover;
+    text-shadow: 0px 0px 6px black;
+    background-position: center;
+}
+
+a:-webkit-any-link {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 303px;
+    max-width: 370px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url(https://media.tenor.com/images/a88a26eca8fcd17e8ef8266937a9853d/tenor.gif);
+}
+
+.topLeft {
+    float: left;
+    width: 370px;
+    padding: 10px;
+}
+
+.fwiendFace b {
+    overflow: hidden;
+    color: #8EFA00;
+    text-shadow: 0 2px black;
+}
+
+#top {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(https://i.pinimg.com/originals/39/11/67/3911670998d047b7cd509b495af00ffa.gif);
+    color: #8EFA00;
+    padding-block: 30px;
+    border: solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background-color: black;
+    border: solid;
+    color: white;
+    border-color: black;
+}
+
+.tableLeft {
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+    background-image: url(https://i.pinimg.com/originals/a7/d4/09/a7d409d7bae019934e8511a85f8e4ff8.gif);
+}
+
+#userWall {
+   margin-top: 10px;
+   word-wrap: break-word;
+   display: inline-block;
+   overflow-y: scroll;
+   width: 100%;
+   height: 400px;
+}
+
+.topLeft {
+    float: left;
+    width: 370px;
+    padding: 10px;
+    padding-top: 83px;
+}
+
+.boxHead {
+    background: #040204;
+    color: white;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+}
+
+.boxInfo {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-image: url(https://pa1.narvii.com/7571/7765acafa41851d46dfa28534c8e3036313c670cr1-493-647_hq.gif);
+}
+
+div#hSub {
+    all: unset;
+    font-family: Arial;
+    font-size: 15px;
+    background: rgb(0 0 0 / 60%);
+    font-size: small;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: fixed;
+    left: 0;
+    top: 34px;
+    width: calc(100% - 15px );
+    height: 15px;
+    z-index: 300;
+    border: solid;
+}
+
+div#header {
+    all: unset;
+    font-family: Arial;
+    font-size: 15px;
+    background: black;
+    color: #fff;
+    position: fixed;
+    width: calc( 100% - 15px );
+    height: 22px;
+    padding: 5px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+    overflow: hidden;
+    z-index: 300;
+}
+
+#hSub a {
+    color: #8EFA00;
+    text-decoration: none;
+}
+
+.url {
+    font-size: 0px;
+    background: url(https://images6.fanpop.com/image/photos/42700000/-NANA-nana...-42793718-500-302.gif);
+    background-size: 310px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: transparent !important;
+    height: 256px;
+    width: 256px;
+    border: none;
+    box-shadow: none;
+    padding: 0 !important;
+    z-index: 1000;
+}
+
+div.topLeft::after {
+    content: "";
+    display: block;
+    position: center;
+    width: 100%;
+    height: 210px;
+    max-width: 370px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url(https://images6.fanpop.com/image/photos/42700000/-NANA-nana-42793718-500-302.gif);
+}
+
+.fwiendCounter {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+.fwiendCount {
+    color: #8EFA00;
+}
+
+.blogCard .avatar {
+   width: 200px;
+   margin-right: 0px;
+}
+
+div.topLeft.blogCard {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-image: url(http://pa1.narvii.com/6538/93f0b427119c9f78a3cf0d2b21de6b79a158b5c3_00.gif);
+    padding-top: 86px;
+    color: #8EFA00;
+    text-shadow: 2px 1px black;
+}
+
+div.topLeft.blogCard::after {
+   content: none;
+   display: block;
+   position: center;
+   width: 100%;
+   height: 1666px;
+   max-width: 370px;
+   background-position: 0 0;
+   background-size: 100% 100%;
+   background-image: url(https://64.media.tumblr.com/32610d6…/d4b21ee6ea6c2029-4e/s1280x1920/069101f….png);
+}
+
+
+div.player.box {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #040204;
+    color: #8efa00;
+    width: calc(100% - 10px );
+}
+
+td.shortRight {
+    background-color: black;
+    color: #8efa00;
+    font-family: auto;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-1/hol18.cur), auto !important;} /* End https://www.cursors-4u.com */
